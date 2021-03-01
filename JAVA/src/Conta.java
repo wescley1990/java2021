@@ -4,6 +4,4 @@ public class Conta {
 	int agencia;
 	int numero;
 	String titular;
-	// alterado pelo github
-	// alterado pelo eclipse
 }
