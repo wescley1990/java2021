@@ -13,5 +13,17 @@ public class CriaConta {
 		
 		System.out.println("primeira conta tem " + primeiraConta.saldo);
 		System.out.println("segunda conta tem " + segundaConta.saldo);
+		
+		System.out.println(primeiraConta.agencia);
+		System.out.println(primeiraConta.numero);
+		
+		segundaConta.agencia = 146;
+		System.out.println(segundaConta.agencia);
+		
+		if(primeiraConta == segundaConta) {
+			System.out.println("é a mesma conta");
+		}else {
+			System.out.println("contas diferentes");
+		}
 	}
 }
