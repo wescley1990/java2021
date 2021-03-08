@@ -6,6 +6,15 @@ public class Conta {
 	String titular;
 	
 	void deposita(double valor) {
-		saldo = saldo + valor;
+		this.saldo += valor;
+	}
+	
+	boolean sacar(double valor) {
+		if (this.saldo >= valor) {
+			this.saldo = this.saldo - valor;
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
