@@ -17,4 +17,12 @@ public class Conta {
 			return false;
 		}
 	}
+	boolean transfere(double valor, Conta destino) {
+		if (this.saldo >= valor) {
+			this.saldo -= valor;
+			destino.deposita(valor);
+			return true;
+		}
+		return false;
+	}
 }
