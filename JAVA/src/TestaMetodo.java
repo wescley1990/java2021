@@ -21,8 +21,7 @@ public class TestaMetodo {
 		} else {
 			System.out.println("Faltou dinheiro");
 		}
-		
-		
+				
 		System.out.println(contaDaRegina.saldo);
 		System.out.println(contaDoWescley.saldo);
 		
