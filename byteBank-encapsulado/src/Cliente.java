@@ -19,7 +19,7 @@ public class Cliente {
 	public String getProfissão() {
 		return Profissão;
 	}
-	public void setProfissão(String profissão) {
+	public void setProfissões(String profissão) {
 		Profissão = profissão;
 	}
 	public String getEndereço() {

@@ -13,10 +13,15 @@ public class TestaGetESet {
 		conta.setTitular(Wescley);
 		System.out.println(conta.getTitular().getNome());
 		
-		conta.getTitular().setProfissão("Programador");
+		conta.getTitular().setProfissões("Programador");
+		
 		// agora em duas linhas:
 		Cliente titularDaConta = conta.getTitular();
-		titularDaConta.setProfissão("Programador");
+		titularDaConta.setProfissões("Programador");
+		
+		
+		
+		
 		
 		System.out.println(titularDaConta);
 		System.out.println(Wescley);

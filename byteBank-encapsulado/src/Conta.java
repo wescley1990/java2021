@@ -26,7 +26,7 @@ public class Conta {
 		return false;
 	}
 	
-	double getSaldo() {
+	double getSaldos() {
 		return this.saldo;
 	}
 	
