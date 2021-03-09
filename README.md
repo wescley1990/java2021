@@ -1,5 +1,5 @@
 # Bytebank Java
-Criando um banco chamado Bytebank utilizando a linguagem java - Poo
+Criando um banco chamado Bytebank utilizando a linguagem JAVA - Poo
 
 ## Funcionalidades
 
