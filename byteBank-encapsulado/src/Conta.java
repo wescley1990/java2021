@@ -5,7 +5,6 @@ public class Conta {
 	int numero;
 	Cliente titular;
 	
-	
 	void deposita(double valor) {
 		this.saldo += valor;
 	}
