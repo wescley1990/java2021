@@ -4,7 +4,7 @@ public class TestaContaSemCliente {
 	public static void main(String[] args) {
 		
 		Conta contaDaRegina = new Conta();
-		System.out.println(contaDaRegina.saldo);
+		System.out.println(contaDaRegina.getSaldo());
 		
 		contaDaRegina.titular = new Cliente();
 		System.out.println(contaDaRegina.titular);
