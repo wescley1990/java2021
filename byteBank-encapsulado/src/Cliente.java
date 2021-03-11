@@ -4,6 +4,7 @@ public class Cliente {
 	private String CPF;
 	private String Profissão;
 	private String Endereço;
+	
 	public String getNome() {
 		return Nome;
 	}
@@ -19,7 +20,7 @@ public class Cliente {
 	public String getProfissão() {
 		return Profissão;
 	}
-	public void setProfissões(String profissão) {
+	public void setProfissão(String profissão) {
 		Profissão = profissão;
 	}
 	public String getEndereço() {
