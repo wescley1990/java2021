@@ -10,6 +10,8 @@ public class TesteFuncionario {
 		
 		System.out.println(Wescley.getNome());
 		System.out.println(Wescley.getBonificacao());
+		
+		
 	}
 
 }
