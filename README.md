@@ -9,6 +9,7 @@ Oferecendo as seguintes funcionalidades:
 - clientes
 - metodos
 - referencias
+- herança
 
 ### Curso Alura
 Ensinando do Básico ao Avançado
